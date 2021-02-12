@@ -1,4 +1,7 @@
 #include <iostream>
+#include "Producto.h"
+#include "Inventario.h"
+#include <string>
 using namespace std;
 
 int menuGeneral();
