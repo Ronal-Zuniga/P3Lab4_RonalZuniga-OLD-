@@ -15,7 +15,13 @@ class Inventario{
 		void agregarProducto(Producto*);
 		void modificarProducto(int);
 		void eliminarProducto(int);
-		Inventario busqueda(string);
+		Inventario* busqueda(string);
 		void estadisticasGenerales();
+		bool validarCateg(string);
+		float precioInventario();
+		float precioCategoria(string);
+		int productosCategoria(string);
+		int totalUnidades();
+		vector<string> productosUnicos();
 };
 #endif
